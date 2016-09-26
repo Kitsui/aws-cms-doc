@@ -1,3 +1,4 @@
 site_name: Kitsui CMS Documentation
 site_description: Official documentation including setup guide for the Kitsui CMS.
 site_dir: ../Kitsui.github.io/docs
+theme: mkdocs

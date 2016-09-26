@@ -5,7 +5,7 @@
 Download the [Repo code here](https://github.com/Kitsui/AWS-CMS-LAMBDA)
 
 ## Set up your Environment
-1. Open up your Terminal and navigate to the CMS directory's root.
+1. Open up your Terminal and navigate to the **CMS Repo** directory's root.
 
 2. Ensure that your AWS Terminal has already been configured with the right credentials for the Account you wish to deploy to.
 
@@ -17,8 +17,13 @@ Download the [Repo code here](https://github.com/Kitsui/AWS-CMS-LAMBDA)
 ```Python
 python setup.py CMS-Name AWS-Region
 ```
+![Setup](img/setup-command-screen.png)
+#### Installation Success Check
 After the Setup script has finished its work, navigate to [Amazon Web Services](aws.amazon.com) and login to verify your installation was successful.  
 You should be able to see new resources within the **S3 bucket**, **Dynamo Database**, **API gateway** and **Lambda** with the same CMS-Name suffixed to the resource name.
+#### Admin Login Credentials
+You will be given a default **Password** and **Username** to login to the **Admin panel** at the end of the setup as seen bellow.
+![Finished Setup](img/finished-setup.png)
 
 <br />
 <hr>
@@ -36,6 +41,7 @@ python remove.py
 ```
 You will be prompted with a list of installed CMS with a corresponding Number, _type_ the **Number** of the CMS you wish to **Remove** and hit **Enter**.
 
+![Remove](img/remove.png)
 <br />
 <hr>
 
@@ -53,3 +59,5 @@ more information about developing on **Lambda** click [here](https://github.com/
 python update.py
 ```
 You will be prompted with a list of installed CMS with a corresponding Number, _type_ the **Number** of the CMS you wish to **Update** and hit **Enter**.
+
+![Update](img/update.png)

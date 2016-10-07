@@ -1,20 +1,26 @@
 # Welcome to the Kitsui documentation
 
 ##Getting Started
-* [Installing Kitsui CMS](installation.md)
-    * [Installing](installation.md)
-    * [Removing](installation.md)
-    * [Updating](installation.md)
+##Setup
+* [Installing Kitsui CMS](Setting up/installation.md)
+    * [Installing](Setting up/installation.md)
+    * [Removing](Setting up/installation.md)
+    * [Updating](Setting up/installation.md)
     
-* [Getting your website Live with Cloud Front](user.md)
 
-* [Users](user.md)
 
-* [Roles](role.md)
+* [Site Settings](Setting up/site-settings.md)
+    * [Setting up Cloud Front](Setting up/user.md)
 
-* [Blogs](blog.md)
+* [Roles](Setting up/role.md)
 
-* [Pages](page.md)
+* [Users](Setting up/user.md)
 
-* [Site Settings](site-settings.md)
+##Create Some Content
+
+* [Blogs](Creating Content/blog.md)
+
+* [Pages](Creating Content/page.md)
+
+
     

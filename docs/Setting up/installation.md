@@ -13,18 +13,22 @@ Download the [Repo code here](https://github.com/Kitsui/AWS-CMS-LAMBDA)
 
 1. To deploy, run the following command in your terminal window  
 **CMS-Name :** name for your CMS  
-**AWS-Region :** AWS Region the CMS is be installed on.  
+**AWS-Region (Optional):** AWS Region the CMS is be installed on.  
+** Note : A Region with the Lambda module avilable will have to be selected **   
+**Find** the up to date available services by region [**here**](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) 
 ```Python
 python setup.py CMS-Name AWS-Region
 ```
-![Setup](img/setup-command-screen.png)
+![Setup](../img/setup-command-screen.png)
 #### Installation Success Check
 After the Setup script has finished its work, navigate to [Amazon Web Services](aws.amazon.com) and login to verify your installation was successful.  
 You should be able to see new resources within the **S3 bucket**, **Dynamo Database**, **API gateway** and **Lambda** with the same CMS-Name suffixed to the resource name.
 #### Admin Login Credentials
 You will be given a default **Password** and **Username** to login to the **Admin panel** at the end of the setup as seen bellow.
-![Finished Setup](img/finished-setup.png)
+![Finished Setup](../img/finished-setup.png)
 
+##Setting Up CloudFront
+Next you would want to set up your Cloud Front.
 <br />
 <hr>
 
@@ -41,7 +45,7 @@ python remove.py
 ```
 You will be prompted with a list of installed CMS with a corresponding Number, _type_ the **Number** of the CMS you wish to **Remove** and hit **Enter**.
 
-![Remove](img/remove.png)
+![Remove](../img/remove.png)
 <br />
 <hr>
 
@@ -60,4 +64,8 @@ python update.py
 ```
 You will be prompted with a list of installed CMS with a corresponding Number, _type_ the **Number** of the CMS you wish to **Update** and hit **Enter**.
 
-![Update](img/update.png)
+![Update](../img/update.png)  
+
+##Everything Looks pretty good so far!  
+Lets set up the settings of your personalised site!  
+[Site Settings Setup >>](site-settings.md)

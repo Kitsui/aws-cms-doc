@@ -10,17 +10,7 @@
 
 
 * [Site Settings](Setting up/site-settings.md)
-    * [Setting up Cloud Front](Setting up/user.md)
-
-* [Roles](Setting up/role.md)
-
-* [Users](Setting up/user.md)
-
-##Create Some Content
-
-* [Blogs](Creating Content/blog.md)
-
-* [Pages](Creating Content/page.md)
+    * [Setting up Cloud Front](Setting up/Users and Roles.md)
 
 
     

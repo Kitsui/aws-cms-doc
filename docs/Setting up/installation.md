@@ -66,6 +66,6 @@ You will be prompted with a list of installed CMS with a corresponding Number, _
 
 ![Update](../img/update.png)  
 
-##Everything Looks pretty good so far!  
-Lets set up the settings of your personalised site!  
+###Everything Looks pretty good so far!  
+**Lets set up the settings of your personalised site!**  
 [Site Settings Setup >>](site-settings.md)

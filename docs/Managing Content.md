@@ -36,5 +36,4 @@ then click the **Publish Button** to finalise your changes.
 
 ### Awesome Content Managing!
 **Lets Something**   
-[<< Site Settings](Setting up/site-settings.md)  
-
+[<< Site Settings](Setting up/site-settings.md) | [Users and Roles >>](Setting up/Users and Roles.md)

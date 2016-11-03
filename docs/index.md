@@ -10,5 +10,4 @@
 
 * [Users and Roles](Setting up/Users and Roles.md)
 
-
-    
+* [Navigation Bar](Setting up/Navigation Bar.md)   

@@ -38,4 +38,4 @@ Supported Delete Requests
 ```  
 
 
-[<< Managing Content](Setting up/Managing Content.md)  
+[<< Managing Content](/Managing Content.md)  
